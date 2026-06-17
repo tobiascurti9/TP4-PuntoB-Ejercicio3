@@ -29,9 +29,9 @@ Partial Class Form1
         ' lstSalida
         ' 
         lstSalida.FormattingEnabled = True
-        lstSalida.Location = New Point(117, 54)
+        lstSalida.Location = New Point(213, 42)
         lstSalida.Name = "lstSalida"
-        lstSalida.Size = New Size(508, 329)
+        lstSalida.Size = New Size(289, 329)
         lstSalida.TabIndex = 0
         ' 
         ' cmdEjecutar
