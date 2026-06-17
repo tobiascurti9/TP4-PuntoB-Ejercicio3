@@ -29,14 +29,14 @@ Partial Class Form1
         ' lstSalida
         ' 
         lstSalida.FormattingEnabled = True
-        lstSalida.Location = New Point(531, 190)
+        lstSalida.Location = New Point(335, 175)
         lstSalida.Name = "lstSalida"
         lstSalida.Size = New Size(180, 129)
         lstSalida.TabIndex = 0
         ' 
         ' cmdEjecutar
         ' 
-        cmdEjecutar.Location = New Point(600, 71)
+        cmdEjecutar.Location = New Point(360, 119)
         cmdEjecutar.Name = "cmdEjecutar"
         cmdEjecutar.Size = New Size(112, 34)
         cmdEjecutar.TabIndex = 1
