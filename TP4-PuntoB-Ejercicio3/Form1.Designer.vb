@@ -22,10 +22,40 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        lstSalida = New ListBox()
+        cmdEjecutar = New Button()
+        SuspendLayout()
+        ' 
+        ' lstSalida
+        ' 
+        lstSalida.FormattingEnabled = True
+        lstSalida.Location = New Point(531, 190)
+        lstSalida.Name = "lstSalida"
+        lstSalida.Size = New Size(180, 129)
+        lstSalida.TabIndex = 0
+        ' 
+        ' cmdEjecutar
+        ' 
+        cmdEjecutar.Location = New Point(600, 71)
+        cmdEjecutar.Name = "cmdEjecutar"
+        cmdEjecutar.Size = New Size(112, 34)
+        cmdEjecutar.TabIndex = 1
+        cmdEjecutar.Text = "Ejecutar"
+        cmdEjecutar.UseVisualStyleBackColor = True
+        ' 
+        ' Form1
+        ' 
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(cmdEjecutar)
+        Controls.Add(lstSalida)
+        Name = "Form1"
         Text = "Form1"
+        ResumeLayout(False)
     End Sub
+
+    Friend WithEvents lstSalida As ListBox
+    Friend WithEvents cmdEjecutar As Button
 
 End Class
